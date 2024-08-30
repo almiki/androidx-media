@@ -14,7 +14,10 @@
 project.ext {
     releaseVersion = '1.4.1'
     releaseVersionCode = 1_004_001_3_00
-    minSdkVersion = 19
+
+    //minSdkVersion = 19
+    minSdkVersion = 21 // AK: updated to get rid of error "Platform version 19 is unsupported by this NDK. Please change minSdk to at least 21 to avoid undefined behavior"
+
     // See https://developer.android.com/training/cars/media/automotive-os#automotive-module
     automotiveMinSdkVersion = 28
     appTargetSdkVersion = 34
